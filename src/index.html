@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          spacing: {
+            13: '3.25rem',
+          },
+          fontFamily: {
+            inter: ['Inter'],
+          },
+          colors: {
+            wpu: '#bada55',
+            kopi: '#c0ffee',
+          },
+        },
+      },
+    };
+  </script>
+  <!-- type="text/tailwindcss" -->
+  <style>
+    /* *{
+      border: 1px solid red;
+    } */
+  </style>
+</head>
+<body>
+  <!-- <h1 class="text-3xl font-bold text-blue-600 underline">
+    Hello world!l
+  </h1> -->
+  <h1 class="text-8xl font-bold text-center my-10">Mari Belajar <span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">tailwindcss</span></h1>
+
+  <section class="mb-10 bg-gradient-to-r via-red-400 from-indigo-300 to-yellow-400">
+    <div class="h-20 ">kok ga jalan bg nya</div>
+  </section>
+
+  <section class="mb-10 bg-indigo-200 ">
+    <h2 class="text-3xl text-center">Spacing</h2>
+    <div class="m-12 bg-red-200">Margin</div>
+    <div class="p-8 bg-red-200">Padding</div>
+  </section>
+
+  <section class="mb-10 bg-green-200">
+    <h2 class="mt-2 text-3xl text-center">Sizing</h2>
+    <div class="w-32 h-32 bg-yellow-200">Kotak 1</div>
+    <div class="w-32 h-32 bg-yellow-wpu">Kotak 2</div>
+    <div class="w-32 h-32 bg-yellow-coffee">Kotak 3</div>
+    <!-- <div class="max-w-xs min-h-screen">Kotak 2</div> -->
+  </section>
+
+  <section class="font-inter max-w-3xl mx-auto">
+    <h2 class="mb-2 text-4xl font-bold">Belajar Mengenai Typograhy pada Tailwind CSS</h2>
+    <div class="mb-4 text-lg text-gray-700">By <span class="text-gray-700 font-semibold">Sandhika Galih</span>, 1 Januari 2022</div>
+    <p class="mb-4">Lorem ipsum dolor sit amet <a href="#" class="underline font-semibold text-blue-600">consectetur</a> adipisicing elit. Cumque esse aut, adipisci excepturi iusto facilis quasi tenetur facere magnam fuga veritatis nesciunt voluptates alias dolorem vero eius molestias sed sit. Maiores tenetur iure id minima quibusdam doloremque necessitatibus quis ratione vitae, dolorum officiis beatae. Suscipit reprehenderit excepturi facere quae eius.</p>
+    <blockquote class="mb-4 italic font-thin text-xl">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque molestias, corporis ducimus quam assumenda delectus deserunt. Commodi qui laudantium eveniet!"</blockquote>
+    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias reiciendis mollitia vel, earum ipsa quia quo ut in animi ad possimus, ab, nulla illum temporibus.</p>
+  </section>
+
+  <div class="max-w-xl h-96 bg-slate-200 mx-auto">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur corporis soluta nulla illo obcaecati sint. Voluptates dicta laboriosam provident ad ex in. Cum, earum. Laudantium pariatur nemo libero ex incidunt dolorum consequuntur animi placeat molestias eum repudiandae veniam temporibus, laboriosam reprehenderit. Expedita blanditiis enim facere soluta vero exercitationem ea iusto adipisci dolorum, vel vitae perferendis! Reiciendis facere quasi officiis a! Quasi quia quo possimus, impedit eaque asperiores, sapiente cum officia fugit placeat voluptates, quidem veniam ad quod hic! Fuga voluptatibus ipsam expedita asperiores iure voluptates nostrum dolores in, dicta consequuntur praesentium dolorum et aut ullam accusamus ut rerum assumenda veniam necessitatibus deleniti optio illum, accusantium aliquid? At cumque ex quasi soluta culpa, nostrum, sint quaerat quod perspiciatis aut molestiae! Dolor architecto suscipit reiciendis magnam a aperiam iste alias, veniam voluptatum facilis voluptatibus nobis ipsam debitis sunt. Delectus nihil minus cupiditate fugit autem, nemo minima placeat ea numquam dolores iste illum doloribus totam accusamus similique! Dolore at rerum vitae accusantium pariatur possimus excepturi asperiores quae doloremque, sit omnis iste labore eum quod repellendus odit sint hic quisquam amet rem illum in accusamus? Perferendis quis repellendus magnam quas soluta doloribus dolores quidem. Adipisci, doloremque dolore est quisquam praesentium nesciunt libero perspiciatis?</p>
+  </div>
+
+  <div class="mb-96"></div>
+</body>
+</html>
